@@ -39,7 +39,7 @@ Siga os passos abaixo para instalar e rodar o projeto:
 2. **Entre no diretório do projeto:**:
 
    ```bash
-   cd nome-do-repositorio
+   cd econverce_teste
 
 3. **Entre no diretório do projeto:**:
 
