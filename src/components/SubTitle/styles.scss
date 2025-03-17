@@ -1,0 +1,22 @@
+.container_subtitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 45px;
+
+    gap: 2rem;
+}
+
+.sub_title_border {
+    height: 1px;
+    width: 360px;
+    background-color: var(--gray-300);
+}
+
+.subtitle_text {
+    font-size: 30px;
+    font-weight: 700;
+
+    color: var(--purple-300);
+}

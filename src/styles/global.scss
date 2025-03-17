@@ -1,0 +1,69 @@
+:root {
+
+    --white-800: #FFFFFF;
+    --white-700: #F4F4F4;
+    --white-500: #F0F0F0;
+    --white-300: #F6F5F2;
+
+
+    --gray-200: rgba(34, 34, 34, 0.71);
+    --gray-300: #DEDEDE;
+    --gray-400: #808080;
+    --gray-500: #9F9F9F;
+    --gray-600: #3B3B3B;
+    --gray-700: #3F3F40;
+    --gray-800: #4E4E4E;
+    
+    
+    --purple-300: #3442B5;
+    --purple-500: #3019B2;
+    --purple-800: #271C47;
+    
+    --yellow: #F7CA11;
+
+
+    --purple-700: rgba(39, 28, 71, 1);
+
+}
+
+#root {
+    width: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--white-800);
+    // margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: column;
+    max-width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p, span, input, button, a {
+    font-family: "Poppins", sans-serif;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, li {
+    list-style: none;
+}
+
+.container {
+    max-width: 1440px;
+}

@@ -1,0 +1,51 @@
+.container {
+    background-color: var(--purple-700);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 162px;
+}
+
+.container_newsletter {
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    min-width: 1250px;
+}
+
+.content {
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 8px;
+
+
+    h4 {
+        height: 38px;
+
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 120%;
+
+        color: var(--white-800);
+
+        font-family: "Outfit", sans-serif;
+
+    }
+
+    p {
+        font-size: 14px;
+        font-weight: 300;
+        height: 36px;
+
+        line-height: 18px;
+
+        color: var(--white-800);
+    }
+}
+

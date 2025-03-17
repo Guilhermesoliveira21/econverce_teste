@@ -1,0 +1,26 @@
+.container_slider {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    min-width: 1364px;
+
+
+    span {
+        cursor: pointer;
+    }
+}
+
+.container_main_slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    max-width: 1270px;
+    overflow: hidden;
+
+    padding: 1rem;
+
+    background-color: transparent;
+    gap: 16px;
+}

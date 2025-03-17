@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    align-items: start;
+
+    gap: 8px;
+}
+
+.colunm {
+    display: flex;
+    flex-direction: column;
+
+    gap: 4px;
+}
+
+.input {
+    width: 233;
+    height: 42;
+    border-width: 1px;
+    gap: 10px;
+    border-radius: 8px;
+    padding: 12px 24px;
+
+    outline: 0;
+
+}
+
+.label {
+    display: flex;
+
+    align-items: center;
+    gap: 4px;
+
+    p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        letter-spacing: 0px;
+
+        color: var(--white-800);
+
+
+    }
+}
+
+.button {
+    height: 46px;
+
+    width: 200px;
+    
+}
