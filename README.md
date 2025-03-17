@@ -1,54 +1,53 @@
-# React + TypeScript + Vite
+# Teste Econverse: Vaga Desenvolvedor Front-End
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este repositório contém o projeto desenvolvido como parte do teste para a vaga de **Desenvolvedor Front-End Júnior**. O projeto utiliza **React** e **Typescript**, juntamente com outras ferramentas modernas para demonstrar habilidades em desenvolvimento front-end.
 
-Currently, two official plugins are available:
+## Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React.js**: Biblioteca JavaScript para construir interfaces de usuário.
+- **React Helmet**: Para gerenciar o conteúdo das metatags no `<head>` da página.
+- **Axios**: Para realizar requisições HTTP.
+- **React Router**: Para navegação entre páginas do aplicativo.
+- **React Query**: Para gerenciamento de estado e requisições assíncronas.
+- **React Toastify**: Para exibir notificações na interface.
+- **React Icons**: Para adicionar ícones à interface do usuário.
+- **Node-Sass**: Para utilizar Sass (CSS) no projeto.
 
-## Expanding the ESLint configuration
+## Funcionalidades Adicionais
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **Sistema de Busca**: O projeto possui um sistema de busca funcional que permite ao usuário pesquisar por produtos. Após a pesquisa, o usuário é redirecionado para a página do produto correspondente.
+  
+- **Notificações para o Usuário**: Após a realização de ações como a compra de um produto ou envio de uma newsletter, o sistema exibe notificações para o usuário, utilizando a biblioteca **React Toastify**. As notificações fornecem feedback visual sobre o sucesso ou falha da operação.
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Pré-requisitos
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Antes de rodar o projeto, você precisa ter as seguintes ferramentas instaladas:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- [Node.js](https://nodejs.org/) (v14 ou superior)
+- [npm](https://www.npmjs.com/) (gerenciador de pacotes do Node.js)
+- [Vite](https://vitejs.dev/) (gerador de projetos front-end)
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+## Instalação
+
+Siga os passos abaixo para instalar e rodar o projeto:
+
+1. **Clone o repositório**:
+
+   ```bash
+   git clone https://github.com/Guilhermesoliveira21/econverce_teste/
+
+2. **Entre no diretório do projeto:**:
+
+   ```bash
+   cd nome-do-repositorio
+
+3. **Entre no diretório do projeto:**:
+
+   ```bash
+   npm install
+
+4. **Rodando o Projeto:**:
+
+   ```bash
+   npm run dev
+
